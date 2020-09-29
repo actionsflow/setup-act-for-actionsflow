@@ -1,1 +1,1 @@
-export const DEFAULT_VERSION = '0.2.14'
+export const DEFAULT_VERSION = '0.2.15'
