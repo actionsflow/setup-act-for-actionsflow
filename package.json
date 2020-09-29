@@ -1,0 +1,23 @@
+{
+  "name": "setup-act-for-actionsflow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Setup act for actionsflow",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build ./index.js -o lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm run build && git add lib/index.js && (git diff-index --quiet HEAD || git commit -m \"chore: add build\") && release-it"
+  },
+  "keywords": [],
+  "author": "Owen Young",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "setup-act": "^1.3.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.24.1",
+    "release-it": "^14.0.3"
+  }
+}
