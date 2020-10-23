@@ -1,6 +1,6 @@
 # Setup act action
 
-This action install [act](https://github.com/nektos/act) for Actionsflow.
+This action install [act](https://github.com/nektos/act) for Actionsflow, and set `~/.actrc` for Actionsflow.
 
 > No special customization, just the specified version，in order to automatically upgrade to a stable version
 
