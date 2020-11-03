@@ -3,8 +3,7 @@ const path = require("path");
 const os = require("os");
 const core = require('@actions/core');
 const {run} = require('setup-act')
-const {DEFAULT_VERSION} = require('./constans')
-
+const {DEFAULT_VERSION} = require('./version.json')
 const toolVersion = core.getInput('version');
 run({
   version: toolVersion || DEFAULT_VERSION
