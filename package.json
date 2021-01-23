@@ -1,7 +1,7 @@
 {
   "name": "setup-act-for-actionsflow",
   "private": true,
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Setup act for actionsflow",
   "main": "index.js",
   "scripts": {
