@@ -14,9 +14,7 @@ run({
   const isActRcExist = fsPure.existsSync(actRcPath);
   if(!isActRcExist){
       // set rc
-      const actRC = `-P ubuntu-latest=actionsflow/act-environment:v1
-      -P ubuntu-18.04=actionsflow/act-environment:v1
-      -P ubuntu-20.04=actionsflow/act-environment:v1`;
+      const actRC = "-P ubuntu-latest=actionsflow/act-environment:v1\n-P ubuntu-18.04=actionsflow/act-environment:v1\n-P ubuntu-20.04=actionsflow/act-environment:v1";
       return fs.writeFile(actRcPath, actRC);
   }
 
