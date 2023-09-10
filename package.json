@@ -1,7 +1,7 @@
 {
   "name": "setup-act-for-actionsflow",
   "private": true,
-  "version": "1.1.12",
+  "version": "1.2.0",
   "description": "Setup act for actionsflow",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Owen Young",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.10.0",
     "setup-act": "^1.4.3"
   },
   "devDependencies": {
